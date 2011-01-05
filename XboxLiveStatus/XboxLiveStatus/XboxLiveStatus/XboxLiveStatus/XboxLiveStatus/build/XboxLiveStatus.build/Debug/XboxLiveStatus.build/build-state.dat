@@ -1,0 +1,560 @@
+TXboxLiveStatus
+v7
+r0
+t295034749.875300
+cCheck dependencies
+cProcessInfoPlistFile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Info.plist" XboxLiveStatus-Info.plist
+cCopyStringsFile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/MainMenu.xib"
+cCopyPlistFile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/GamerTags.plist" GamerTags.plist
+cCpResource build/Debug/XboxLiveStatus.app/Contents/Resources/Xbox-360.icns Xbox-360.icns
+cProcessPCH /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch.gch XboxLiveStatus_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch.pth XboxLiveStatus_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/main.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatusAppDelegate.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTag.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/NSDataAdditions.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/TBXML.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxFriendsListViewController.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m"
+cLd "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/MacOS/XboxLiveStatus" normal x86_64
+cAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m"
+cAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m"
+cAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m"
+cAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m"
+cAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m"
+cTouch "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004AB9AA2700000000000013E6
+t1253681703
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004A1F0FE200000000000102A5
+t1243549666
+s66213
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib
+c000000004ABBF0FC0000000000005D2C
+t1253830908
+s23852
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/InfoPlist.strings
+c000000004BE57ED2000000000000002D
+t1273331410
+s45
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/MainMenu.xib
+c000000004BE5A6C80000000000032501
+t1273341640
+s206081
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.h
+c000000004BE59C8F000000000000022F
+t1273339023
+s559
+i<Cocoa/Cocoa.h>
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m
+c000000004BE5A79200000000000008DB
+t1273341842
+s2267
+i"GamerTag.h"
+i"TBXML.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.h
+c000000004BE578A50000000000000138
+t1273329829
+s312
+i<Cocoa/Cocoa.h>
+i"GamerTag.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m
+c000000004BE58D8E000000000000037C
+t1273335182
+s892
+i"GamerTagFactory.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTags.plist
+c000000004BE59D20000000000000017D
+t1273339168
+s381
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.h
+c000000004B7FD01D0000000000000A67
+t1266667549
+s2663
+i<Foundation/Foundation.h>
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m
+c000000004B7FD01D00000000000025EE
+t1266667549
+s9710
+i"NSDataAdditions.h"
+i<zlib.h>
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.h
+c000000004B7FF41C00000000000012D1
+t1266676764
+s4817
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m
+c000000004B830E7400000000000046D8
+t1266880116
+s18136
+i"TBXML.h"
+i"NSDataAdditions.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/Xbox-360.icns
+c000000004BE59829000000000000BEA8
+t1273337897
+s48808
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.h
+c000000004BE59F3B00000000000001D6
+t1273339707
+s470
+i<Cocoa/Cocoa.h>
+i"GamerTag.h"
+i"GamerTagFactory.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m
+c000000004BE5A7CF00000000000007E2
+t1273341903
+s2018
+i"XboxFriendsListViewController.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.h
+c000000004BE5878E000000000000016E
+t1273333646
+s366
+i<Cocoa/Cocoa.h>
+i"XboxFriendsListViewController.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m
+c000000004BE5A65C0000000000000280
+t1273341532
+s640
+i"XboxLiveStatusAppDelegate.h"
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatus_Prefix.pch
+c000000004BE57ED2000000000000009F
+t1273331410
+s159
+i<Cocoa/Cocoa.h>
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app
+t1273341949
+s102
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Info.plist
+t1273341940
+s968
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/MacOS/XboxLiveStatus
+t1273341946
+s53864
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/PkgInfo
+t1273341940
+s8
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1273341940
+s92
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj/MainMenu.nib
+t1273341941
+s41679
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/GamerTags.plist
+t1273341940
+s381
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/Xbox-360.icns
+t1273341940
+s48808
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/x360 logo
+t2
+s0
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/x360logo
+t1273337783
+s0
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/x360logo.icns
+t1273337809
+s0
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTag.o
+t1273341945
+s21232
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTagFactory.o
+t1273335171
+s11988
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/NSDataAdditions.o
+t1273341945
+s19784
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/TBXML.o
+t1273341946
+s42144
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxFriendsListViewController.o
+t1273341946
+s32536
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatus.LinkFileList
+c000000004BE5A7F40000000000000350
+t1273341940
+s848
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatusAppDelegate.o
+t1273341945
+s26608
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/main.o
+t1273341945
+s5016
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/GamerTag.plist
+t1273341946
+s275
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/NSDataAdditions.plist
+t1273341946
+s275
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/TBXML.plist
+t1273341949
+s275
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/XboxFriendsListViewController.plist
+t1273341946
+s275
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/XboxLiveStatusAppDelegate.plist
+t1273341946
+s275
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/main.plist
+t1273341946
+s275
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m
+c000000004BE57ED200000000000000F9
+t1273331410
+s249
+i<Cocoa/Cocoa.h>
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360 logo
+c000000004382CAB20000000000000000
+t1132645042
+s0
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360logo
+c000000004382CAB20000000000000000
+t1132645042
+s0
+
+N/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360logo.icns
+c000000004382CAB20000000000000000
+t1132645042
+s0
+
+N/var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch.gch
+t1273341945
+s54212368
+
+N/var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch.pth
+t1273341804
+s7463696
+
+NXboxLiveStatus-Info.plist
+c000000004BE5985D00000000000003F7
+t1273337949
+s1015
+
+CAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m"
+s295034746.374666
+e295034746.500112
+r1
+xAnalyze
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m:35:22: warning: 'stringWithContentsOfURL:' is deprecated [-Wdeprecated-declarations]
+o         NSString *result = [NSString stringWithContentsOfURL:URLObj];
+o                             ^
+o1 diagnostic generated.
+lSLF07#2@66"Analyze /Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m295034746#295034746#0(270"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m:35:22: warning: 'stringWithContentsOfURL:' is deprecated [-Wdeprecated-declarations]         NSString *result = [NSString stringWithContentsOfURL:URLObj];                             ^1 diagnostic generated.0(0#0#58"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m4300885448#1773"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch --analyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/GamerTag.plist"0#
+
+CAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m"
+s295034746.450732
+e295034746.627232
+r1
+xAnalyze
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m
+lSLF07#2@73"Analyze /Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m295034746#295034746#0(0"0(0#0#65"/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m4300885448#1787"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch --analyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/NSDataAdditions.plist"0#
+
+CAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m"
+s295034746.500222
+e295034749.871631
+r1
+xAnalyze
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m
+lSLF07#2@63"Analyze /Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m295034746#295034749#0(0"0(0#0#55"/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m4300885448#1767"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch --analyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/TBXML.plist"0#
+
+CAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m"
+s295034746.627344
+e295034746.742348
+r1
+xAnalyze
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m
+lSLF07#2@87"Analyze /Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m295034746#295034746#0(0"0(0#0#79"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m4300885448#1815"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch --analyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/XboxFriendsListViewController.plist"0#
+
+CAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m"
+s295034746.286907
+e295034746.450623
+r1
+xAnalyze
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m
+lSLF07#2@83"Analyze /Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m295034746#295034746#0(0"0(0#0#75"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m4300885448#1807"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch --analyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/XboxLiveStatusAppDelegate.plist"0#
+
+CAnalyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m"
+s295034746.172347
+e295034746.286795
+r1
+xAnalyze
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m
+lSLF07#2@62"Analyze /Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m295034746#295034746#0(0"0(0#0#54"/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m4300885448#1765"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch --analyze "/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/StaticAnalyzer/normal/x86_64/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295034740#295034740#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTag.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034745.601128
+e295034745.869758
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTag.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m: In function '-[GamerTag update]':
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m:35: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)
+lSLF07#2@66"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m295034745#295034745#0(322"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m: In function '-[GamerTag update]':/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m:35: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)1(22@155"'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:380)295034745#94#228#0(6@58"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m295034642#35#0#35#0#33"'*' is deprecated (declared at *)0(0#0#58"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m4300885448#1719"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTag.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTag.o"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTagFactory.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295027971.048675
+e295027971.553889
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTagFactory.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m: In function '-[GamerTagFactory getGamerTagForRow:]':
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: 'NSMutableDictionary' may not respond to '-objectAtIndex:'
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: (Messages without a matching method signature
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: will be assumed to return 'id' and accept
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: '...' as arguments.)
+o/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:43: warning: 'NSMutableDictionary' may not respond to '-objectAtIndex:'
+lSLF07#2@73"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m295027971#295027971#0(742"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m: In function '-[GamerTagFactory getGamerTagForRow:]':/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: 'NSMutableDictionary' may not respond to '-objectAtIndex:'/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: (Messages without a matching method signature/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: will be assumed to return 'id' and accept/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:41: warning: '...' as arguments.)/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m:43: warning: 'NSMutableDictionary' may not respond to '-objectAtIndex:'3(22@58"'NSMutableDictionary' may not respond to '-objectAtIndex:'295027971#120#138#0(6@65"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m295027969#41#0#41#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295027971#258#125#0(6@65"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m295027969#41#0#41#0#0"0(22@58"'NSMutableDictionary' may not respond to '-objectAtIndex:'295027971#604#138#0(6@65"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m295027969#43#0#43#0#26"'*' may not respond to '*'0(0#0#65"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m4300885448#1733"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTagFactory.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/GamerTagFactory.o"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/NSDataAdditions.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034745.670714
+e295034745.936790
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/NSDataAdditions.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m295034745#295034745#0(0"0(0#0#65"/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m4300885448#1733"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/NSDataAdditions.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/NSDataAdditions.o"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/TBXML.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034745.869896
+e295034746.201114
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/TBXML.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m295034745#295034746#0(0"0(0#0#55"/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m4300885448#1713"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/TBXML.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/TBXML.o"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxFriendsListViewController.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034745.936919
+e295034746.172211
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxFriendsListViewController.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m295034745#295034746#0(0"0(0#0#79"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m4300885448#1761"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxFriendsListViewController.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxFriendsListViewController.o"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatusAppDelegate.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034745.364913
+e295034745.670573
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatusAppDelegate.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m295034745#295034745#0(0"0(0#0#75"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m4300885448#1753"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatusAppDelegate.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatusAppDelegate.o"0#
+
+CCompileC build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/main.o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034745.342025
+e295034745.600991
+r1
+xCompileC
+xbuild/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/main.o
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m295034745#295034745#0(0"0(0#0#54"/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m4300885448#1711"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -include /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/main.m" -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/MainMenu.xib"
+s295034740.875387
+e295034741.561310
+r1
+xCompileXIB
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib295034740#295034741#0(0"0(0#0#74"/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/MainMenu.xib4300885448#367"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/MainMenu.xib"0#
+
+CCopyPlistFile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/GamerTags.plist" GamerTags.plist
+s295034740.937404
+e295034740.974598
+r1
+xCopyPlistFile
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/GamerTags.plist
+xGamerTags.plist
+lSLF07#2@20"Copy GamerTags.plist295034740#295034740#0(0"0(0#0#63"/Users/djharperuk/Xcode Projects/XboxLiveStatus/GamerTags.plist4300885448#273"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist GamerTags.plist --outdir "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources"0#
+
+CCopyStringsFile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s295034740.874507
+e295034740.937286
+r1
+xCopyStringsFile
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings295034740#295034740#0(0"0(0#0#79"/Users/djharperuk/Xcode Projects/XboxLiveStatus/English.lproj/InfoPlist.strings4300885448#394"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Debug/XboxLiveStatus.app/Contents/Resources/x360 logo" "x360 logo"
+r0
+
+CCpResource build/Debug/XboxLiveStatus.app/Contents/Resources/Xbox-360.icns Xbox-360.icns
+s295034740.974711
+e295034740.983109
+r1
+xCpResource
+xbuild/Debug/XboxLiveStatus.app/Contents/Resources/Xbox-360.icns
+xXbox-360.icns
+lSLF07#2@18"Copy Xbox-360.icns295034740#295034740#0(0"0(0#0#61"/Users/djharperuk/Xcode Projects/XboxLiveStatus/Xbox-360.icns4300885448#369"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/djharperuk/Xcode Projects/XboxLiveStatus/Xbox-360.icns" "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources"0#
+
+CCpResource build/Debug/XboxLiveStatus.app/Contents/Resources/x360logo x360logo
+s295030583.851225
+e295030583.912463
+r1
+xCpResource
+xbuild/Debug/XboxLiveStatus.app/Contents/Resources/x360logo
+xx360logo
+lSLF07#2@13"Copy x360logo295030583#295030583#0(0"0(0#0#56"/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360logo4300885448#364"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360logo" "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources"0#
+
+CCpResource build/Debug/XboxLiveStatus.app/Contents/Resources/x360logo.icns x360logo.icns
+s295030609.400540
+e295030609.422152
+r1
+xCpResource
+xbuild/Debug/XboxLiveStatus.app/Contents/Resources/x360logo.icns
+xx360logo.icns
+lSLF07#2@18"Copy x360logo.icns295030609#295030609#0(0"0(0#0#61"/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360logo.icns4300885448#369"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/djharperuk/Xcode Projects/XboxLiveStatus/x360logo.icns" "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Resources"0#
+
+CLd "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/MacOS/XboxLiveStatus" normal x86_64
+s295034746.201245
+e295034746.374546
+r1
+xLd
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/MacOS/XboxLiveStatus
+xnormal
+xx86_64
+lSLF07#2@113"Link /Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/MacOS/XboxLiveStatus295034746#295034746#0(0"0(0#0#0"4300885448#636"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" -filelist "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/Objects-normal/x86_64/XboxLiveStatus.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -lz -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/MacOS/XboxLiveStatus"0#
+
+CProcessInfoPlistFile "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Info.plist" XboxLiveStatus-Info.plist
+s295034740.871167
+e295034740.874413
+r1
+xProcessInfoPlistFile
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Info.plist
+xXboxLiveStatus-Info.plist
+lSLF07#2@33"Process XboxLiveStatus-Info.plist295034740#295034740#0(0"0(0#0#73"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatus-Info.plist4300885448#364"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    builtin-infoPlistUtility XboxLiveStatus-Info.plist -genpkginfo "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch.gch XboxLiveStatus_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295034741.561449
+e295034745.341594
+r1
+xProcessPCH
+x/var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch.gch
+xXboxLiveStatus_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile XboxLiveStatus_Prefix.pch295034741#295034745#0(0"0(0#0#73"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatus_Prefix.pch4300885448#1599"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatus_Prefix.pch" -o /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-cmattaabyeryslcaeatrzpztcqtm/XboxLiveStatus_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch.pth XboxLiveStatus_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s295034602.274282
+e295034604.691638
+r1
+xProcessPCH
+x/var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch.pth
+xXboxLiveStatus_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@36"Precompile XboxLiveStatus_Prefix.pch295034602#295034604#0(0"0(0#0#73"/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatus_Prefix.pch4300885448#1635"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-generated-files.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-own-target-headers.hmap" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-all-target-headers.hmap" -iquote "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/XboxLiveStatus-project-headers.hmap" "-F/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/include" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources/x86_64" "-I/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/XboxLiveStatus.build/Debug/XboxLiveStatus.build/DerivedSources" -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/XboxLiveStatus_Prefix.pch" -o /var/folders/bf/bfMjhFLYH308xWqmHOFiIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XboxLiveStatus_Prefix-gwgjxyohojwethbwqxgopntxshqw/XboxLiveStatus_Prefix.pch.pth0#
+
+CTouch "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app"
+s295034749.871794
+e295034749.875256
+r1
+xTouch
+x/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app
+lSLF07#2@84"Touch /Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app295034749#295034749#0(0"0(0#0#0"4300885448#160"    cd "/Users/djharperuk/Xcode Projects/XboxLiveStatus"    /usr/bin/touch -c "/Users/djharperuk/Xcode Projects/XboxLiveStatus/build/Debug/XboxLiveStatus.app"0#
+

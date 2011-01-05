@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		ED0B50CA11E0BBA5004933F8 /* Xbox360.icns in Resources */ = {isa = PBXBuildFile; fileRef = ED0B50C911E0BBA5004933F8 /* Xbox360.icns */; };
+		ED11E4BE11E0A6F4009FF2A6 /* AppUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED11E4BD11E0A6F4009FF2A6 /* AppUtilities.m */; };
+		ED194A8D11C3F3190031A344 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED194A8C11C3F3190031A344 /* Preferences.xib */; };
+		ED194A9111C3F5500031A344 /* PreferencePaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED194A9011C3F5500031A344 /* PreferencePaneViewController.m */; };
+		ED1C89ED1195B67100FE29D5 /* GamerTag.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1C89E61195B67100FE29D5 /* GamerTag.m */; };
+		ED1C89F61195B6C800FE29D5 /* GamerTags.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED1C89F51195B6C800FE29D5 /* GamerTags.plist */; };
+		ED1C89FA1195B79900FE29D5 /* XboxFriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1C89F91195B79900FE29D5 /* XboxFriendsListViewController.m */; };
+		ED1C8A001195B89B00FE29D5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1C89FF1195B89B00FE29D5 /* libz.dylib */; };
+		ED248B2511D79195000681B3 /* DSClickableURLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ED248B2411D79195000681B3 /* DSClickableURLTextField.m */; };
+		ED425E6811A0596100CB4E2B /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = ED425E6711A0596100CB4E2B /* AppSettings.m */; };
+		ED425EB111A05DE800CB4E2B /* NSString-CompareCaseInsensitive.m in Sources */ = {isa = PBXBuildFile; fileRef = ED425EB011A05DE800CB4E2B /* NSString-CompareCaseInsensitive.m */; };
+		ED589D1D11BC0128007655D9 /* ModelIntermediary.m in Sources */ = {isa = PBXBuildFile; fileRef = ED589D1C11BC0128007655D9 /* ModelIntermediary.m */; };
+		ED589D3B11BC04BB007655D9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ED589D3A11BC04BB007655D9 /* Model.m */; };
+		ED5FB52A11DE753500D19948 /* GrowlNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5FB52911DE753500D19948 /* GrowlNotifier.m */; };
+		ED64923A11CEBA72008A4D75 /* AboutPaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED64923911CEBA72008A4D75 /* AboutPaneViewController.m */; };
+		ED6AE17B11DD2B5400FE2052 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6AE17A11DD2B5400FE2052 /* Growl.framework */; };
+		ED6AE19A11DD2BA200FE2052 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED6AE17A11DD2B5400FE2052 /* Growl.framework */; };
+		ED6AE1B711DD2EB300FE2052 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = ED6AE19F11DD2D0400FE2052 /* Growl Registration Ticket.growlRegDict */; };
+		ED6F822911B181A5004D2AD2 /* GamerTagXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F822811B181A5004D2AD2 /* GamerTagXMLParser.m */; };
+		ED6F83F611B1BBE7004D2AD2 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F83F311B1BBE7004D2AD2 /* NSDataAdditions.m */; };
+		ED6F83F711B1BBE7004D2AD2 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F83F511B1BBE7004D2AD2 /* TBXML.m */; };
+		ED7BABE911BAD52B000BEB4B /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7BABE811BAD52B000BEB4B /* Game.m */; };
+		ED7BABF411BAD6D8000BEB4B /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7BABF311BAD6D8000BEB4B /* GameModel.m */; };
+		ED8A53111198A11E00FABAC2 /* GamerTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A53101198A11E00FABAC2 /* GamerTagModel.m */; };
+		ED8B319011CAC0520006F169 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8B318F11CAC0520006F169 /* About.xib */; };
+		EDA3545411A4866600A78F13 /* XBLTagStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA3545311A4866600A78F13 /* XBLTagStatusCell.m */; };
+		EDACE9E511C18AE100B7E43B /* KNFlippedAwareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDACE9E411C18AE100B7E43B /* KNFlippedAwareButton.m */; };
+		EDACEA9C11C1955400B7E43B /* GamesInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDACEA9B11C1955400B7E43B /* GamesInfo.plist */; };
+		EDB42EEC11AC676A0049518B /* TagInfoPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB42EEB11AC676A0049518B /* TagInfoPane.xib */; };
+		EDB42EF011AC68C20049518B /* TagInfoPaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB42EEF11AC68C20049518B /* TagInfoPaneViewController.m */; };
+		EDBDE10911B44C5600845BBE /* GamerTagUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE10811B44C5600845BBE /* GamerTagUpdater.m */; };
+		EDCDF27D11C584DB00D5E22C /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = EDCDF27C11C584DB00D5E22C /* question.png */; };
+		EDD47B7611A839CE0094A099 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD47B7511A839CE0094A099 /* on.png */; };
+		EDD47B8211A83AC10094A099 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD47B8111A83AC10094A099 /* off.png */; };
+		EDE1A10911B2C343007639AE /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE1A10811B2C343007639AE /* Downloader.m */; };
+		EDEF551F11AC768000DEB2C9 /* KNFlippedAwareImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEF551E11AC768000DEB2C9 /* KNFlippedAwareImageView.m */; };
+		EDFFD13A11ADC8DD0013BCD8 /* NSAttributedString-URL.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFFD13911ADC8DD0013BCD8 /* NSAttributedString-URL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED6AE19311DD2B8200FE2052 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ED6AE19A11DD2BA200FE2052 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxLiveStatusAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XboxLiveStatusAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* XboxLiveStatus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxLiveStatus_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* XboxLiveStatus-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XboxLiveStatus-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* XboxLiveStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XboxLiveStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0B50C911E0BBA5004933F8 /* Xbox360.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Xbox360.icns; sourceTree = "<group>"; };
+		ED11E4BC11E0A6F4009FF2A6 /* AppUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtilities.h; sourceTree = "<group>"; };
+		ED11E4BD11E0A6F4009FF2A6 /* AppUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtilities.m; sourceTree = "<group>"; };
+		ED194A8C11C3F3190031A344 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		ED194A8F11C3F5500031A344 /* PreferencePaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencePaneViewController.h; sourceTree = "<group>"; };
+		ED194A9011C3F5500031A344 /* PreferencePaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencePaneViewController.m; sourceTree = "<group>"; };
+		ED1C89E51195B67100FE29D5 /* GamerTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamerTag.h; sourceTree = "<group>"; };
+		ED1C89E61195B67100FE29D5 /* GamerTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamerTag.m; sourceTree = "<group>"; };
+		ED1C89F51195B6C800FE29D5 /* GamerTags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GamerTags.plist; sourceTree = "<group>"; };
+		ED1C89F81195B79900FE29D5 /* XboxFriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxFriendsListViewController.h; sourceTree = "<group>"; };
+		ED1C89F91195B79900FE29D5 /* XboxFriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XboxFriendsListViewController.m; sourceTree = "<group>"; };
+		ED1C89FF1195B89B00FE29D5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		ED248B2311D79195000681B3 /* DSClickableURLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSClickableURLTextField.h; sourceTree = "<group>"; };
+		ED248B2411D79195000681B3 /* DSClickableURLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSClickableURLTextField.m; sourceTree = "<group>"; };
+		ED425E6611A0596100CB4E2B /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		ED425E6711A0596100CB4E2B /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		ED425EAF11A05DE800CB4E2B /* NSString-CompareCaseInsensitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-CompareCaseInsensitive.h"; sourceTree = "<group>"; };
+		ED425EB011A05DE800CB4E2B /* NSString-CompareCaseInsensitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-CompareCaseInsensitive.m"; sourceTree = "<group>"; };
+		ED589D1B11BC0128007655D9 /* ModelIntermediary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelIntermediary.h; sourceTree = "<group>"; };
+		ED589D1C11BC0128007655D9 /* ModelIntermediary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelIntermediary.m; sourceTree = "<group>"; };
+		ED589D3911BC04BB007655D9 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		ED589D3A11BC04BB007655D9 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		ED591E6B11A719C70040775B /* XBLTagStatusDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBLTagStatusDelegate.h; sourceTree = "<group>"; };
+		ED5FB52811DE753500D19948 /* GrowlNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlNotifier.h; sourceTree = "<group>"; };
+		ED5FB52911DE753500D19948 /* GrowlNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlNotifier.m; sourceTree = "<group>"; };
+		ED64923811CEBA72008A4D75 /* AboutPaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutPaneViewController.h; sourceTree = "<group>"; };
+		ED64923911CEBA72008A4D75 /* AboutPaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPaneViewController.m; sourceTree = "<group>"; };
+		ED6AE17A11DD2B5400FE2052 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		ED6AE19F11DD2D0400FE2052 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		ED6F822711B181A5004D2AD2 /* GamerTagXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamerTagXMLParser.h; sourceTree = "<group>"; };
+		ED6F822811B181A5004D2AD2 /* GamerTagXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamerTagXMLParser.m; sourceTree = "<group>"; };
+		ED6F83F211B1BBE7004D2AD2 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		ED6F83F311B1BBE7004D2AD2 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		ED6F83F411B1BBE7004D2AD2 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		ED6F83F511B1BBE7004D2AD2 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		ED7BABE711BAD52B000BEB4B /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		ED7BABE811BAD52B000BEB4B /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		ED7BABF211BAD6D8000BEB4B /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		ED7BABF311BAD6D8000BEB4B /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		ED8A530F1198A11E00FABAC2 /* GamerTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamerTagModel.h; sourceTree = "<group>"; };
+		ED8A53101198A11E00FABAC2 /* GamerTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamerTagModel.m; sourceTree = "<group>"; };
+		ED8B318F11CAC0520006F169 /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		EDA3545211A4866600A78F13 /* XBLTagStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBLTagStatusCell.h; sourceTree = "<group>"; };
+		EDA3545311A4866600A78F13 /* XBLTagStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBLTagStatusCell.m; sourceTree = "<group>"; };
+		EDACE9E311C18AE100B7E43B /* KNFlippedAwareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFlippedAwareButton.h; sourceTree = "<group>"; };
+		EDACE9E411C18AE100B7E43B /* KNFlippedAwareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFlippedAwareButton.m; sourceTree = "<group>"; };
+		EDACEA9B11C1955400B7E43B /* GamesInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GamesInfo.plist; sourceTree = "<group>"; };
+		EDB42EEB11AC676A0049518B /* TagInfoPane.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagInfoPane.xib; sourceTree = "<group>"; };
+		EDB42EEE11AC68C20049518B /* TagInfoPaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagInfoPaneViewController.h; sourceTree = "<group>"; };
+		EDB42EEF11AC68C20049518B /* TagInfoPaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagInfoPaneViewController.m; sourceTree = "<group>"; };
+		EDBDE10711B44C5600845BBE /* GamerTagUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamerTagUpdater.h; sourceTree = "<group>"; };
+		EDBDE10811B44C5600845BBE /* GamerTagUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamerTagUpdater.m; sourceTree = "<group>"; };
+		EDCDF27C11C584DB00D5E22C /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		EDD47B7511A839CE0094A099 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		EDD47B8111A83AC10094A099 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		EDE1A10711B2C343007639AE /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		EDE1A10811B2C343007639AE /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		EDEF551D11AC768000DEB2C9 /* KNFlippedAwareImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFlippedAwareImageView.h; sourceTree = "<group>"; };
+		EDEF551E11AC768000DEB2C9 /* KNFlippedAwareImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFlippedAwareImageView.m; sourceTree = "<group>"; };
+		EDFFD13811ADC8DD0013BCD8 /* NSAttributedString-URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString-URL.h"; sourceTree = "<group>"; };
+		EDFFD13911ADC8DD0013BCD8 /* NSAttributedString-URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString-URL.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				ED1C8A001195B89B00FE29D5 /* libz.dylib in Frameworks */,
+				ED6AE17B11DD2B5400FE2052 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED0FC70811B2D2470037C5C7 /* Networking */,
+				ED8D214011A97F210071D5B5 /* Custom Controls */,
+				ED425E6611A0596100CB4E2B /* AppSettings.h */,
+				ED425E6711A0596100CB4E2B /* AppSettings.m */,
+				ED1C89F41195B69600FE29D5 /* Model */,
+				ED1C89F31195B68400FE29D5 /* XMLParser */,
+				256AC3D80F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.m */,
+				ED1C89F81195B79900FE29D5 /* XboxFriendsListViewController.h */,
+				ED1C89F91195B79900FE29D5 /* XboxFriendsListViewController.m */,
+				ED425EAF11A05DE800CB4E2B /* NSString-CompareCaseInsensitive.h */,
+				ED425EB011A05DE800CB4E2B /* NSString-CompareCaseInsensitive.m */,
+				EDB42EEE11AC68C20049518B /* TagInfoPaneViewController.h */,
+				EDB42EEF11AC68C20049518B /* TagInfoPaneViewController.m */,
+				EDFFD13811ADC8DD0013BCD8 /* NSAttributedString-URL.h */,
+				EDFFD13911ADC8DD0013BCD8 /* NSAttributedString-URL.m */,
+				ED194A8F11C3F5500031A344 /* PreferencePaneViewController.h */,
+				ED194A9011C3F5500031A344 /* PreferencePaneViewController.m */,
+				ED64923811CEBA72008A4D75 /* AboutPaneViewController.h */,
+				ED64923911CEBA72008A4D75 /* AboutPaneViewController.m */,
+				ED5FB52811DE753500D19948 /* GrowlNotifier.h */,
+				ED5FB52911DE753500D19948 /* GrowlNotifier.m */,
+				ED11E4BC11E0A6F4009FF2A6 /* AppUtilities.h */,
+				ED11E4BD11E0A6F4009FF2A6 /* AppUtilities.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* XboxLiveStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* XboxLiveStatus */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				ED1C89FF1195B89B00FE29D5 /* libz.dylib */,
+				ED6AE17A11DD2B5400FE2052 /* Growl.framework */,
+			);
+			name = XboxLiveStatus;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* XboxLiveStatus_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B50C911E0BBA5004933F8 /* Xbox360.icns */,
+				EDCDF27C11C584DB00D5E22C /* question.png */,
+				EDD47B8111A83AC10094A099 /* off.png */,
+				EDD47B7511A839CE0094A099 /* on.png */,
+				8D1107310486CEB800E47090 /* XboxLiveStatus-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				ED1C89F51195B6C800FE29D5 /* GamerTags.plist */,
+				EDB42EEB11AC676A0049518B /* TagInfoPane.xib */,
+				EDACEA9B11C1955400B7E43B /* GamesInfo.plist */,
+				ED194A8C11C3F3190031A344 /* Preferences.xib */,
+				ED8B318F11CAC0520006F169 /* About.xib */,
+				ED6AE19F11DD2D0400FE2052 /* Growl Registration Ticket.growlRegDict */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED0FC70811B2D2470037C5C7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EDE1A10711B2C343007639AE /* Downloader.h */,
+				EDE1A10811B2C343007639AE /* Downloader.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		ED1C89F31195B68400FE29D5 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				ED6F83F211B1BBE7004D2AD2 /* NSDataAdditions.h */,
+				ED6F83F311B1BBE7004D2AD2 /* NSDataAdditions.m */,
+				ED6F83F411B1BBE7004D2AD2 /* TBXML.h */,
+				ED6F83F511B1BBE7004D2AD2 /* TBXML.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		ED1C89F41195B69600FE29D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1C89E51195B67100FE29D5 /* GamerTag.h */,
+				ED1C89E61195B67100FE29D5 /* GamerTag.m */,
+				ED8A530F1198A11E00FABAC2 /* GamerTagModel.h */,
+				ED8A53101198A11E00FABAC2 /* GamerTagModel.m */,
+				ED6F822711B181A5004D2AD2 /* GamerTagXMLParser.h */,
+				ED6F822811B181A5004D2AD2 /* GamerTagXMLParser.m */,
+				EDBDE10711B44C5600845BBE /* GamerTagUpdater.h */,
+				EDBDE10811B44C5600845BBE /* GamerTagUpdater.m */,
+				ED7BABE711BAD52B000BEB4B /* Game.h */,
+				ED7BABE811BAD52B000BEB4B /* Game.m */,
+				ED7BABF211BAD6D8000BEB4B /* GameModel.h */,
+				ED7BABF311BAD6D8000BEB4B /* GameModel.m */,
+				ED589D1B11BC0128007655D9 /* ModelIntermediary.h */,
+				ED589D1C11BC0128007655D9 /* ModelIntermediary.m */,
+				ED589D3911BC04BB007655D9 /* Model.h */,
+				ED589D3A11BC04BB007655D9 /* Model.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED8D214011A97F210071D5B5 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				ED248B2311D79195000681B3 /* DSClickableURLTextField.h */,
+				ED248B2411D79195000681B3 /* DSClickableURLTextField.m */,
+				EDEF551D11AC768000DEB2C9 /* KNFlippedAwareImageView.h */,
+				EDEF551E11AC768000DEB2C9 /* KNFlippedAwareImageView.m */,
+				EDA3545211A4866600A78F13 /* XBLTagStatusCell.h */,
+				EDA3545311A4866600A78F13 /* XBLTagStatusCell.m */,
+				ED591E6B11A719C70040775B /* XBLTagStatusDelegate.h */,
+				EDACE9E311C18AE100B7E43B /* KNFlippedAwareButton.h */,
+				EDACE9E411C18AE100B7E43B /* KNFlippedAwareButton.m */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* XboxLiveStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "XboxLiveStatus" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				ED6AE19311DD2B8200FE2052 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XboxLiveStatus;
+			productInstallPath = "$(HOME)/Applications";
+			productName = XboxLiveStatus;
+			productReference = 8D1107320486CEB800E47090 /* XboxLiveStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "XboxLiveStatus" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* XboxLiveStatus */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* XboxLiveStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				ED1C89F61195B6C800FE29D5 /* GamerTags.plist in Resources */,
+				ED6AE1B711DD2EB300FE2052 /* Growl Registration Ticket.growlRegDict in Resources */,
+				EDD47B7611A839CE0094A099 /* on.png in Resources */,
+				EDD47B8211A83AC10094A099 /* off.png in Resources */,
+				EDB42EEC11AC676A0049518B /* TagInfoPane.xib in Resources */,
+				EDACEA9C11C1955400B7E43B /* GamesInfo.plist in Resources */,
+				ED194A8D11C3F3190031A344 /* Preferences.xib in Resources */,
+				EDCDF27D11C584DB00D5E22C /* question.png in Resources */,
+				ED8B319011CAC0520006F169 /* About.xib in Resources */,
+				ED0B50CA11E0BBA5004933F8 /* Xbox360.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* XboxLiveStatusAppDelegate.m in Sources */,
+				ED1C89ED1195B67100FE29D5 /* GamerTag.m in Sources */,
+				ED1C89FA1195B79900FE29D5 /* XboxFriendsListViewController.m in Sources */,
+				ED8A53111198A11E00FABAC2 /* GamerTagModel.m in Sources */,
+				ED425E6811A0596100CB4E2B /* AppSettings.m in Sources */,
+				ED425EB111A05DE800CB4E2B /* NSString-CompareCaseInsensitive.m in Sources */,
+				EDA3545411A4866600A78F13 /* XBLTagStatusCell.m in Sources */,
+				EDB42EF011AC68C20049518B /* TagInfoPaneViewController.m in Sources */,
+				EDEF551F11AC768000DEB2C9 /* KNFlippedAwareImageView.m in Sources */,
+				EDFFD13A11ADC8DD0013BCD8 /* NSAttributedString-URL.m in Sources */,
+				ED6F822911B181A5004D2AD2 /* GamerTagXMLParser.m in Sources */,
+				ED6F83F611B1BBE7004D2AD2 /* NSDataAdditions.m in Sources */,
+				ED6F83F711B1BBE7004D2AD2 /* TBXML.m in Sources */,
+				EDE1A10911B2C343007639AE /* Downloader.m in Sources */,
+				EDBDE10911B44C5600845BBE /* GamerTagUpdater.m in Sources */,
+				ED7BABE911BAD52B000BEB4B /* Game.m in Sources */,
+				ED7BABF411BAD6D8000BEB4B /* GameModel.m in Sources */,
+				ED589D1D11BC0128007655D9 /* ModelIntermediary.m in Sources */,
+				ED589D3B11BC04BB007655D9 /* Model.m in Sources */,
+				EDACE9E511C18AE100B7E43B /* KNFlippedAwareButton.m in Sources */,
+				ED194A9111C3F5500031A344 /* PreferencePaneViewController.m in Sources */,
+				ED64923A11CEBA72008A4D75 /* AboutPaneViewController.m in Sources */,
+				ED248B2511D79195000681B3 /* DSClickableURLTextField.m in Sources */,
+				ED5FB52A11DE753500D19948 /* GrowlNotifier.m in Sources */,
+				ED11E4BE11E0A6F4009FF2A6 /* AppUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/Growl-1.2.1-Framework\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XboxLiveStatus_Prefix.pch;
+				INFOPLIST_FILE = "XboxLiveStatus-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = XboxLiveStatus;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/Growl-1.2.1-Framework\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XboxLiveStatus_Prefix.pch;
+				INFOPLIST_FILE = "XboxLiveStatus-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = XboxLiveStatus;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "XboxLiveStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "XboxLiveStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
