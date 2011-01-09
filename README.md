@@ -1,3 +1,5 @@
+**NOTICE: This application will run fine, however the web service that it used to gather gamertag data has been removed by its author. I don't blame him to be honest, apparently his server was receiving 3 million hits a day. I'm trying to get Microsoft to open up access to their gamertag API but I have a feeling they're not going to be very receptive** 
+
 This was a project I undertook to learn Objective-C, the code is very messy and not very good. 
 
 ## What on earth is this?
